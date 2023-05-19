@@ -56,6 +56,10 @@ public class Versions extends LinkedList<Versions.Version> {
 
         private String blogTemplate;
 
+        private String wildflyVersionAdapter;
+
+        private String wildflyVersionAdapterDeprecated;
+
         private boolean latest;
 
         private String releaseNotes;
@@ -116,6 +120,22 @@ public class Versions extends LinkedList<Versions.Version> {
 
         public void setDownloadTemplate(String downloadTemplate) {
             this.downloadTemplate = downloadTemplate;
+        }
+
+        public String getWildflyVersionAdapter() {
+            return wildflyVersionAdapter;
+        }
+
+        public void setWildflyVersionAdapter(String wildflyVersionAdapter) {
+            this.wildflyVersionAdapter = wildflyVersionAdapter;
+        }
+
+        public String getWildflyVersionAdapterDeprecated() {
+            return wildflyVersionAdapterDeprecated;
+        }
+
+        public void setWildflyVersionAdapterDeprecated(String wildflyVersionAdapterDeprecated) {
+            this.wildflyVersionAdapterDeprecated = wildflyVersionAdapterDeprecated;
         }
 
         public String getDocumentationVersion() {
