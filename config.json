@@ -2,7 +2,7 @@
   "maxBlog": 8,
   "maxNews": 3,
   "urls": {
-    "home": "https://www.keycloak.org",
-    "source" : "https://github.com/keycloak/keycloak"
+    "home": "",
+    "source" : "https://github.com/keycloak-archive/keycloak-documentation"
   }
 }
