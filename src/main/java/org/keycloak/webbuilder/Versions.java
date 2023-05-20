@@ -54,7 +54,7 @@ public class Versions extends LinkedList<Versions.Version> {
 
         private String downloadTemplate;
 
-        private String blogTemplate;
+        private String blogTemplate = "1";
 
         private String wildflyVersionAdapter;
 
